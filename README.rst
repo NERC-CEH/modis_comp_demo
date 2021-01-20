@@ -21,13 +21,13 @@ Installation and Use
 
 To install the required libs (there are not many) uses the conda system so ensure you have this first. The libs are all just standard python science and gdal so shouldn't cause problems in your base env, but to be safe just create an env. name something like below:
 
-```
-bash 
+.. code-block:: bash
+
 conda env create -f ndvi_demo.yml
 
 conda activate ndvi_demo
 
 jupyter notebook
-```
+
 Then open the ipynb and cycle through the cells.
 
