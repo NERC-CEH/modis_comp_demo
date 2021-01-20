@@ -13,12 +13,12 @@ https://lpdaacsvc.cr.usgs.gov/appeears/
 
 https://github.com/Ciaran1981/geospatial-learn
 
-The dependencies for the above lib are numerous and it will take a long time to install hence, for brevity, I have just provided cut down modules locally. Provided you work in this folder (which will be the case) you can import the functions from the local files. The files are appears_down.py, raster.py and shape.py and reside in src. 
+The dependencies for the above lib are numerous and it will take a long time to install hence, for brevity, I have just provided cut down modules locally. Provided you are using the notebook herein you can import the functions from the local files. The files are appears_down.py, raster.py and shape.py and reside in src. 
 
 Installation and Use
 ~~~~~~~~~~~~~~~~~~~~
 
-To install the required libs (there are not many) uses the conda system so ensure you have this first. The libs are all just standard python science and gdal so shouldn't cause problems in your base env, but to be safe just create an env. name something like below:
+Installing the required libs (there are not many) uses the conda system so ensure you have this first. Clone this repo and cd into the directory then...
 
 .. code-block:: bash
 
