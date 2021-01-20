@@ -11,18 +11,12 @@ masking or raster algebraic type functions and the conversion of Sentinel 2
 data to gdal compatible formats.  
 
 """
-import gdal, ogr,  osr
+from osgeo import gdal
 import numpy as np
 from src.gdal_merge import _merge
 from tqdm import tqdm
-#import re
-import matplotlib
-matplotlib.use('Qt5Agg')
-
 
 gdal.UseExceptions()
-ogr.UseExceptions()
-osr.UseExceptions()
 
 
 def array2raster(array, bands, inRaster, outRas, dtype, FMT=None):

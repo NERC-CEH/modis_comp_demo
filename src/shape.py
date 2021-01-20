@@ -12,8 +12,7 @@ of the demo of processing for part of SOC-D
 
 """
 from scipy.stats import skew, kurtosis
-import gdal
-import  ogr
+from osgeo import gdal, ogr
 from tqdm import tqdm
 import numpy as np
 from scipy.stats.mstats import mode
