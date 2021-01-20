@@ -13,8 +13,7 @@ https://lpdaacsvc.cr.usgs.gov/appeears/
 
 https://github.com/Ciaran1981/geospatial-learn
 
-The dependencies for this are numerous and it will take a long time to install hence, for brevity, I have just provided the necessary functions locally, so provided you work in this folder (which will be the case) you can import the function. The files are appears_down.py, raster.py and shape.py and reside in src. This reduces our dendencies considerably.
-
+The dependencies for this are numerous and it will take a long time to install hence, for brevity, I have just provided the necessary functions locally, so provided you work in this folder (which will be the case) you can import the function. The files are appears_down.py, raster.py and shape.py and reside in src. 
 
 Installation and Use
 ~~~~~~~~~~~~~~~~~~~~
