@@ -13,7 +13,7 @@ https://lpdaacsvc.cr.usgs.gov/appeears/
 
 https://github.com/Ciaran1981/geospatial-learn
 
-The dependencies for the above lib are numerous and it will take a long time to install hence, for brevity, I have just provided cut down modules locally. Provided you are using the notebook herein you can import the functions from the local files. The files are appears_down.py, raster.py and shape.py and reside in src. 
+The dependencies for the above lib are numerous and it will take a while to install hence, for brevity, I have just provided cut down modules locally. Provided you are using the notebook herein you can import the functions from the local files. The files are appears_down.py, raster.py and shape.py and reside in src. I have left the original lib imports commented out if you decide to install/use it.
 
 Installation and Use
 ~~~~~~~~~~~~~~~~~~~~
