@@ -1,7 +1,7 @@
 A brief demo of the process to derive May composites of MODIS NDVI and attribute landcover polygons with FOSS libs.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-There is an ipynb for both CEH land cover and 16 day data and one for corine and monthly data. 
+There is an ipynb demo for both CEH land cover and 16 day data and one for Corine and monthly data. Both of course use gpkg subsets as the entire datasets would result in a fair wait (e.g. 6737558 features on CEH_lcm). 
 
 It should be noted that the input rasters have already been averaged by NASA/USGS prior to the averaging below.
 
